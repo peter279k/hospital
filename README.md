@@ -13,10 +13,11 @@ curl -k "https://www2.ndmctsgh.edu.tw/webreg/DrList.aspx"
 -H "Cache-Control: max-age=0" -H "Cookie: W_SC_ID=YBp+LBxg2noWyoYPYVdjloM1lGcA1; ASP.NET_SessionId=bqjcdh45dakupg55js0l31j5" 
 -H "Connection: keep-alive" --compressed
 #Usage
-方法1. open terminal 輸入cd /path/to/hospital,再輸入 php httpget.php
-方法2. 打開瀏覽器, 輸入 http://example.com/hospital/httpget.php
+######方法1. open terminal 輸入cd /path/to/hospital,再輸入 php httpget.php
+######方法2. 打開瀏覽器, 輸入 http://example.com/hospital/httpget.php
 ###問題
 可能用上述第2個方法會遭遇到錯誤，會得到html內容為:
+```
   <html>
     <head>
       <title>Object moved</title>
@@ -25,6 +26,7 @@ curl -k "https://www2.ndmctsgh.edu.tw/webreg/DrList.aspx"
       <h2>Object moved to <a href="%2fwebreg%2fDefault.aspx">here</a>.</h2>
     </body>
   </html>
+  ```
 ###解法
 1. 可以先用瀏覽器開一遍再去輸入 http://example.com/hospital/httpget.php
 2. 直接使用指令模式
