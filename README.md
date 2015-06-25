@@ -13,5 +13,5 @@ curl -k "https://www2.ndmctsgh.edu.tw/webreg/DrList.aspx"
 -H "Cache-Control: max-age=0" -H "Cookie: W_SC_ID=YBp+LBxg2noWyoYPYVdjloM1lGcA1; ASP.NET_SessionId=bqjcdh45dakupg55js0l31j5" 
 -H "Connection: keep-alive" --compressed
 #Usage
-1. open terminal 輸入cd /ypath/to/hospital,再輸入 php httpget.php
+1. open terminal 輸入cd /path/to/hospital,再輸入 php httpget.php
 2. 打開瀏覽器, 輸入 http://example.com/hospital/httpget.php
