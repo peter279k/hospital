@@ -4,7 +4,7 @@
 PHP/CURL
 #Description
 先從瀏覽器抓取curl的指令再轉換成http_get.php程式碼
-#curl 指令(從 web console(F12) copy as curl)
+####curl 指令(從 web console(F12) copy as curl)
 curl -k "https://www2.ndmctsgh.edu.tw/webreg/DrList.aspx" 
 -H "Accept-Encoding: gzip, deflate, sdch" 
 -H "Accept-Language: zh-TW,zh;q=0.8,en-US;q=0.6,en;q=0.4"
