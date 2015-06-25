@@ -17,14 +17,14 @@ curl -k "https://www2.ndmctsgh.edu.tw/webreg/DrList.aspx"
 方法2. 打開瀏覽器, 輸入 http://example.com/hospital/httpget.php
 ###問題
 可能用上述第2個方法會遭遇到錯誤，會得到html內容為:
-<code><html></code>
-<pre><head></pre>
-<pre><title>Object moved</title></pre>
-<pre></head></pre>
-<pre><body></pre>
-<pre><h2>Object moved to <a href="%2fwebreg%2fDefault.aspx">here</a>.</h2></pre>
-<pre></body></pre>
-<pre></html></pre>
+<blockquote><html>
+<head>
+<title>Object moved</title>
+</head>
+<body></pre>
+<h2>Object moved to <a href="%2fwebreg%2fDefault.aspx">here</a>.</h2>
+</body>
+</html></blockquote>
 ###解法
 1. 可以先用瀏覽器開一遍再去輸入 http://example.com/hospital/httpget.php
 2. 直接使用指令模式
